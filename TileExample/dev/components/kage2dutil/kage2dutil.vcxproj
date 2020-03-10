@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B19D6BF2-9D55-AD3F-065D-869BF2334830}</ProjectGuid>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>kage2dutil</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)dev\sdk\lib\</OutDir>
+    <IntDir>$(SolutionDir)temp\x64\Release\kage2dutil\</IntDir>
+    <TargetName>kage2dutil</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)dev\sdk\lib\</OutDir>
+    <IntDir>$(SolutionDir)temp\x64\Debug\kage2dutil\</IntDir>
+    <TargetName>kage2dutil_d</TargetName>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)dev\sdk\include;$(SolutionDir)dev\sdk\include\kage2dutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <StringPooling>true</StringPooling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>box2d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)dev\sdk\lib</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)dev\sdk\include;$(SolutionDir)dev\sdk\include\kage2dutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>box2d_d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)dev\sdk\lib</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\anim.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\atlas.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\gameobject.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imconfig-SFML.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imconfig.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imgui-SFML.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imgui.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imgui_internal.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imstb_rectpack.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imstb_textedit.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imstb_truetype.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\physics.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\sfml_util.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\sound_manager.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\stb_image.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\stb_image_write.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\system.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\texture_manager.h" />
+    <ClInclude Include="..\..\sdk\include\kage2dutil\world.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_algorithms.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_bounds.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_curves.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_euler.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_fixed.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_log.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_math.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_matrix.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_matrix2.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_matrix3.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_matrix4.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_memBlock.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_memFile.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_position.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_quaternion.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_random.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_streams.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_tag.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_time.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_types.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_vector.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_vector2.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_vector3.h" />
+    <ClInclude Include="..\..\sdk\include\kf\kf_vector4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="anim.cpp" />
+    <ClCompile Include="atlas.cpp" />
+    <ClCompile Include="gameobject.cpp" />
+    <ClCompile Include="imgui-SFML.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_stdlib.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
+    <ClCompile Include="physics.cpp" />
+    <ClCompile Include="sfml_util.cpp" />
+    <ClCompile Include="sound_manager.cpp" />
+    <ClCompile Include="system.cpp" />
+    <ClCompile Include="texture_manager.cpp" />
+    <ClCompile Include="world.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

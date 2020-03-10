@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{67A9880B-D3B2-887C-5C2E-9F7CC836947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\include">
+      <UniqueIdentifier>{DA47C012-46FD-3808-CFF1-32DF3BA62F0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\include\kage2dutil">
+      <UniqueIdentifier>{F570A641-E16A-CF93-CAD7-65A4B6703500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\include\kf">
+      <UniqueIdentifier>{2594ee37-8862-46ae-a056-77dacda6765d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\anim.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\gameobject.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imconfig-SFML.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imconfig.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imgui-SFML.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imgui.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imgui_internal.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imstb_rectpack.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imstb_textedit.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\imstb_truetype.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\sfml_util.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\stb_image.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\stb_image_write.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\system.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\texture_manager.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\world.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\sound_manager.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_algorithms.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_bounds.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_curves.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_fixed.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_log.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_math.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_matrix.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_matrix2.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_matrix3.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_matrix4.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_memBlock.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_memFile.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_position.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_quaternion.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_random.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_streams.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_tag.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_time.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_types.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_vector.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_vector2.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_vector3.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_vector4.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kf\kf_euler.h">
+      <Filter>sdk\include\kf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\physics.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\sdk\include\kage2dutil\atlas.h">
+      <Filter>sdk\include\kage2dutil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="anim.cpp" />
+    <ClCompile Include="gameobject.cpp" />
+    <ClCompile Include="imgui-SFML.cpp" />
+    <ClCompile Include="imgui.cpp" />
+    <ClCompile Include="imgui_draw.cpp" />
+    <ClCompile Include="imgui_widgets.cpp" />
+    <ClCompile Include="sfml_util.cpp" />
+    <ClCompile Include="system.cpp" />
+    <ClCompile Include="texture_manager.cpp" />
+    <ClCompile Include="world.cpp" />
+    <ClCompile Include="sound_manager.cpp" />
+    <ClCompile Include="physics.cpp" />
+    <ClCompile Include="imgui_stdlib.cpp" />
+    <ClCompile Include="atlas.cpp" />
+  </ItemGroup>
+</Project>
