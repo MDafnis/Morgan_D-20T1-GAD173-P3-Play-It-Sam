@@ -1,0 +1,97 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1883,5): warning : The referenced project '..\..\dev\components\kage2dutil\kage2dutil.vcxproj' does not exist.
+  app.cpp
+  dependencies.cpp
+  example.cpp
+  main.cpp
+  TileDefinition.cpp
+  TileMap.cpp
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(5): error C2871: 'kage': a namespace with this name does not exist (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(15): error C3646: 'atlas': unknown override specifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(82): error C2061: syntax error: identifier 'string' (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(99): error C2061: syntax error: identifier 'string' (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(26): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(36): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(53): error C2065: 'cout': undeclared identifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(70): error C2065: 'cout': undeclared identifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(84): error C2065: 'fstream': undeclared identifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(84): error C2146: syntax error: missing ';' before identifier 'mapFile' (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(84): error C2065: 'mapFile': undeclared identifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(85): error C2065: 'mapFile': undeclared identifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(85): error C2065: 'fileName': undeclared identifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(85): error C2653: 'ios': is not a class or namespace name (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(85): error C2065: 'in': undeclared identifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(90): error C2065: 'mapFile': undeclared identifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(95): error C2065: 'cout': undeclared identifier (compiling source file TileMap.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(26): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(36): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(81): warning C4100: 'tile': unreferenced formal parameter (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(100): warning C4100: 'layer': unreferenced formal parameter (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(100): warning C4100: 'y': unreferenced formal parameter (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(100): warning C4100: 'x': unreferenced formal parameter (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'tile': unreferenced formal parameter (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'layer': unreferenced formal parameter (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'y': unreferenced formal parameter (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'x': unreferenced formal parameter (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\example.cpp(46): warning C4100: 'deltaT': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\example.cpp(64): error C2660: 'TileMap::render': function does not take 1 arguments
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(105): note: see declaration of 'TileMap::render' (compiling source file example.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.cpp(26): error C3861: 'Load': identifier not found
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\app.cpp(38): warning C4305: 'argument': truncation from 'double' to 'float32'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\app.cpp(48): warning C4100: 'deltaT': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\app.cpp(90): warning C4305: 'argument': truncation from 'double' to 'float'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\app.cpp(91): warning C4305: 'argument': truncation from 'double' to 'float'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\app.cpp(92): warning C4305: 'argument': truncation from 'double' to 'float'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\app.cpp(87): warning C4189: 'deltaT': local variable is initialized but not referenced
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(26): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(36): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(81): warning C4100: 'tile': unreferenced formal parameter (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(100): warning C4100: 'layer': unreferenced formal parameter (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(100): warning C4100: 'y': unreferenced formal parameter (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(26): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(100): warning C4100: 'x': unreferenced formal parameter (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'tile': unreferenced formal parameter (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'layer': unreferenced formal parameter (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(36): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file main.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'y': unreferenced formal parameter (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'x': unreferenced formal parameter (compiling source file TileDefinition.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(81): warning C4100: 'tile': unreferenced formal parameter (compiling source file main.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(100): warning C4100: 'layer': unreferenced formal parameter (compiling source file main.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(100): warning C4100: 'y': unreferenced formal parameter (compiling source file main.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(100): warning C4100: 'x': unreferenced formal parameter (compiling source file main.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'tile': unreferenced formal parameter (compiling source file main.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'layer': unreferenced formal parameter (compiling source file main.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'y': unreferenced formal parameter (compiling source file main.cpp)
+F:\University\20T1-P2-Bring_Me_Data\TileExample\TileExample\TileMap.h(104): warning C4100: 'x': unreferenced formal parameter (compiling source file main.cpp)

@@ -1,0 +1,84 @@
+﻿  anim.cpp
+  atlas.cpp
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\atlas.cpp(57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\atlas.cpp(64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  gameobject.cpp
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\gameobject.cpp(40): warning C4100: 'dt': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\gameobject.cpp(156): warning C4100: 'obj': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\gameobject.cpp(161): warning C4100: 'fix': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_vector2.h(132): warning C4458: declaration of 'v' hides class member
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_vector2.h(54): note: see declaration of 'kf::Vector2T<float>::<anonymous-tag>::<anonymous-tag>::v'
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_vector2.h(133): note: while compiling class template member function 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)'
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\gameobject.cpp(95): note: see reference to function template instantiation 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)' being compiled
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_euler.h(29): note: see reference to class template instantiation 'kf::Vector2T<float>' being compiled
+  imgui-SFML.cpp
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\imgui-SFML.cpp(385): warning C4457: declaration of 'mousePos' hides function parameter
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\imgui-SFML.cpp(376): note: see declaration of 'mousePos'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\imgui-SFML.cpp(598): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\imgui-SFML.cpp(611): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  imgui.cpp
+  imgui_draw.cpp
+  imgui_stdlib.cpp
+  imgui_widgets.cpp
+  physics.cpp
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(67): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(78): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(82): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(83): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(87): warning C4244: 'argument': conversion from 'float32' to 'sf::Uint8', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(94): warning C4100: 'color': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(94): warning C4100: 'size': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(94): warning C4100: 'p': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(105): warning C4100: 'normal': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(224): warning C4100: 'scale': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(323): warning C4311: 'type cast': pointer truncation from 'void *' to 'int'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(323): warning C4302: 'type cast': truncation from 'void *' to 'int'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(404): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_vector2.h(132): warning C4458: declaration of 'v' hides class member
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_vector2.h(54): note: see declaration of 'kf::Vector2T<float>::<anonymous-tag>::<anonymous-tag>::v'
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_vector2.h(133): note: while compiling class template member function 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)'
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\physics.cpp(425): note: see reference to function template instantiation 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)' being compiled
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kage2dutil\physics.h(29): note: see reference to class template instantiation 'kf::Vector2T<float>' being compiled
+  sfml_util.cpp
+  sound_manager.cpp
+  system.cpp
+  texture_manager.cpp
+  world.cpp
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(64): warning C4244: 'initializing': conversion from 'TT' to 'int', possible loss of data
+          with
+          [
+              TT=float
+          ]
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(65): warning C4244: 'initializing': conversion from 'TT' to 'int', possible loss of data
+          with
+          [
+              TT=float
+          ]
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(63): warning C4189: 'cy': local variable is initialized but not referenced
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(62): warning C4189: 'cx': local variable is initialized but not referenced
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(250): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(274): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(303): warning C4456: declaration of 'i' hides previous local declaration
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(253): note: see declaration of 'i'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(307): warning C4456: declaration of 'i' hides previous local declaration
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(253): note: see declaration of 'i'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(311): warning C4456: declaration of 'i' hides previous local declaration
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(253): note: see declaration of 'i'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(351): warning C4311: 'type cast': pointer truncation from 'void *' to 'unsigned int'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(351): warning C4302: 'type cast': truncation from 'void *' to 'unsigned int'
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(284): warning C4101: 'buf': unreferenced local variable
+F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_vector2.h(132): warning C4458: declaration of 'v' hides class member
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_vector2.h(54): note: see declaration of 'kf::Vector2T<float>::<anonymous-tag>::<anonymous-tag>::v'
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_vector2.h(133): note: while compiling class template member function 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)'
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\components\kage2dutil\world.cpp(33): note: see reference to function template instantiation 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)' being compiled
+  F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\include\kf\kf_euler.h(29): note: see reference to class template instantiation 'kf::Vector2T<float>' being compiled
+  Generating Code...
+  kage2dutil.vcxproj -> F:\University\20T1-P2-Bring_Me_Data\TileExample\dev\sdk\lib\kage2dutil_d.lib

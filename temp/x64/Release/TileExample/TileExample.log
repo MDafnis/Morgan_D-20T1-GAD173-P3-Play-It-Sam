@@ -1,0 +1,116 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1883,5): warning : The referenced project '..\..\dev\components\kage2dutil\kage2dutil.vcxproj' does not exist.
+  example.cpp
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\Player.h(12): warning C4305: 'initializing': truncation from 'double' to 'float'
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(82): warning C4996: 'sf::Text::setColor': was declared deprecated
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\SFML\Graphics\Text.hpp(211): note: see declaration of 'sf::Text::setColor'
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(112): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(117): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(126): warning C4244: 'argument': conversion from 'double' to 'TT', possible loss of data
+          with
+          [
+              TT=float
+          ]
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(206): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(209): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(132): warning C4100: 'deltaT': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(227): warning C4305: 'argument': truncation from 'double' to 'float'
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(221): warning C4100: 'deltaT': unreferenced formal parameter
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kage2dutil\physics.h(134): warning C4312: 'type cast': conversion from 'int' to 'void *' of greater size
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kage2dutil\physics.h(133): note: while compiling class template member function 'T &kage::Physics::BaseFixtureBuilder<T>::userData(int)'
+          with
+          [
+              T=kage::Physics::BoxBuilder
+          ]
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(126): note: see reference to function template instantiation 'T &kage::Physics::BaseFixtureBuilder<T>::userData(int)' being compiled
+          with
+          [
+              T=kage::Physics::BoxBuilder
+          ]
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kage2dutil\physics.h(175): note: see reference to class template instantiation 'kage::Physics::BaseFixtureBuilder<kage::Physics::BoxBuilder>' being compiled
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kf\kf_vector2.h(132): warning C4458: declaration of 'v' hides class member
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kf\kf_vector2.h(54): note: see declaration of 'kf::Vector2T<float>::<anonymous-tag>::<anonymous-tag>::v'
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kf\kf_vector2.h(133): note: while compiling class template member function 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)'
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(226): note: see reference to function template instantiation 'kf::Vector2T<float> kf::Vector2T<float>::operator =(const kf::Vector2T<float> &)' being compiled
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kf\kf_streams.h(19): note: see reference to class template instantiation 'kf::Vector2T<float>' being compiled
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kf\kf_vector2.h(567): warning C4244: 'initializing': conversion from 'const T' to 'TT', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              TT=int
+          ]
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kf\kf_vector2.h(567): note: while compiling class template member function 'kf::Vector2T<int>::Vector2T(const sf::Vector2f &)'
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(141): note: see reference to function template instantiation 'kf::Vector2T<int>::Vector2T(const sf::Vector2f &)' being compiled
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kf\kf_streams.h(25): note: see reference to class template instantiation 'kf::Vector2T<int>' being compiled
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kf\kf_vector2.h(567): warning C4244: 'initializing': conversion from 'const T' to 'TT', possible loss of data
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              TT=int
+          ]
+F:\University\20T1-P2-Bring_Me_Data\PlayItSam\dev\sdk\include\kf\kf_math.h(77): warning C4244: 'argument': conversion from 'T2' to 'const TT', possible loss of data
+          with
+          [
+              T2=double
+          ]
+          and
+          [
+              TT=float
+          ]
+  F:\University\20T1-P2-Bring_Me_Data\PlayItSam\TileExample\example.cpp(226): note: see reference to function template instantiation 'T1 kf::lerp<kf::Vector2,double>(const T1 &,const T1 &,T2)' being compiled
+          with
+          [
+              T1=kf::Vector2,
+              T2=double
+          ]
+kage2dutil.lib(b2WorldCallbacks.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2WorldCallbacks.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2World.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2World.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Island.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Island.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Fixture.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Fixture.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2ContactManager.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2ContactManager.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Body.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Body.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2WheelJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2WheelJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2WeldJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2WeldJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2RopeJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2RopeJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2RevoluteJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2RevoluteJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2PulleyJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2PulleyJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2PrismaticJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2PrismaticJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2MouseJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2MouseJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2MotorJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2MotorJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Joint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Joint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2GearJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2GearJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2FrictionJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2FrictionJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2DistanceJoint.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2DistanceJoint.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2PolygonContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2PolygonContact.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2PolygonAndCircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2PolygonAndCircleContact.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2EdgeAndPolygonContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2EdgeAndPolygonContact.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2EdgeAndCircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2EdgeAndCircleContact.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2ContactSolver.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2ContactSolver.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Contact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Contact.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2CircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2CircleContact.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2ChainAndPolygonContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2ChainAndPolygonContact.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2ChainAndCircleContact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2ChainAndCircleContact.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Timer.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Timer.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2StackAllocator.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2StackAllocator.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Settings.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Settings.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Math.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Math.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Draw.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Draw.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2BlockAllocator.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2BlockAllocator.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2TimeOfImpact.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2TimeOfImpact.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2DynamicTree.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2DynamicTree.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Distance.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Distance.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2Collision.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2Collision.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2CollidePolygon.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2CollidePolygon.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2CollideEdge.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2CollideEdge.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2CollideCircle.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2CollideCircle.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2BroadPhase.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2BroadPhase.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2PolygonShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2PolygonShape.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2EdgeShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2EdgeShape.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2CircleShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2CircleShape.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+kage2dutil.lib(b2ChainShape.obj) : warning LNK4099: PDB 'Box2D.pdb' was not found with 'kage2dutil.lib(b2ChainShape.obj)' or at 'F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\Box2D.pdb'; linking object as if no debug info
+  TileExample.vcxproj -> F:\University\20T1-P2-Bring_Me_Data\PlayItSam\bin\TileExample.exe
